@@ -12,6 +12,7 @@ public class Student {
     private int id;
     private String name;
     private String email;
+    private String major;
     
     public int getId() {
         return id;
@@ -30,6 +31,14 @@ public class Student {
     }
     public void setEmail(String email) {
         this.email = email;
+    }
+    public String getMajor()
+    {
+        return major;
+    }
+    public void setMajor()
+    {
+        this.major=major;
     }
 
     
